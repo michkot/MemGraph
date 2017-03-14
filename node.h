@@ -17,7 +17,6 @@
 #include <string>
 #include <vector>
 #include "attributes.h"
-#include "graphviz_attrs.h"
 
 namespace memgraph {
 	class Node {

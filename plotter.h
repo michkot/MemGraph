@@ -3,6 +3,7 @@
 // Bakalářská práce
 // Vizualizace datových struktur pro verifikační nástroje
 // Michael Holubec
+// Edited: Michal Charvát
 // GNU LGPLv3
 //
 //////////////////////////////////////////////////////////////////////////
@@ -121,19 +122,19 @@ namespace memgraph {
 		/**
 		 * vykresleni grafu
 		 */
-		virtual void plot() = 0;
+		virtual void plot() {}
 
 		/**
 		 * nastaveni cesty vystupu
 		 * @param std::string path
 		 */
-		virtual void setOutputPath(std::string path) = 0;
+		virtual void setOutputPath(std::string path) {}
 
 		/**
 		 * nastaveni nazvu grafu urceneho k vystupu
 		 * @param std::string name
 		 */
-		virtual void setOutputName(std::string name) = 0;
+		virtual void setOutputName(std::string name) {}
 
 	};
 }
