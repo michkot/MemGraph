@@ -1,3 +1,20 @@
+# Build results
+
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+*.VC.db
+*.suo
+*.user
+.vs/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
 # Compiled Object files
 *.slo
 *.lo
@@ -27,12 +44,5 @@
 *.out
 *.app
 
-/texty
-/tex
-00-0000_bcPlot.dot
-cloc_exclude
-graph.png
-test-0014.c-298-0000.dot
 *.pdf
 *.svg
-built
