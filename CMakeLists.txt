@@ -3,10 +3,25 @@ project(memgraph)
 
 add_definitions(-DHAVE_STRING_H)
 
-#only for linux
-#include_directories(/usr/include/graphviz)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES node.cpp node.h edge.cpp edge.h attribute.cpp attribute.h attributes.cpp attributes.h graph_component.cpp graph_component.h graph.cpp graph.h plotter.cpp plotter.h utility.cpp utility.h)
+set(SOURCE_FILES
+    src/node.cpp
+    src/node.h
+    src/edge.cpp
+    src/edge.h
+    src/attribute.cpp
+    src/attribute.h
+    src/attributes.cpp
+    src/attributes.h
+    src/graph_component.cpp
+    src/graph_component.h
+    src/graph.cpp
+    src/graph.h
+    src/plotter.cpp
+    src/plotter.h
+    src/utility.cpp
+    src/utility.h
+    )
 
 add_library(memgraph ${SOURCE_FILES})
