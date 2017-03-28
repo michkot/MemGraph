@@ -20,6 +20,8 @@
 #include <string>
 #include <sstream>
 #include <algorithm>
+#include <functional>
+#include <cctype>
 
 class Utility {
 private:
